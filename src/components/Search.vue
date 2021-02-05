@@ -138,14 +138,13 @@ a {
   background: #f0f0f0;
 }
 .searchbar {
-  width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   @media only screen and (max-width: 549px) {
-    width: 100%;
+    width: 50%;
     label {
-      width: 80%;
+      width: 50%;
     }
   }
 }
@@ -154,10 +153,10 @@ a {
   border-radius: 20px;
   font-size: 1rem;
   border: 1px solid gray;
-  min-width: 300px;
+  width: 80%;
   @media only screen and (max-width: 549px) {
     min-width: 0;
-    width: 100%;
+    width: 50%;
   }
 }
 .searchbar-select {
@@ -165,10 +164,11 @@ a {
   border-radius: 20px;
   font-size: 1rem;
   border: 1px solid gray;
-  min-width: 150px;
+  min-width: 100px;
+  width: 50%;
   @media only screen and (max-width: 549px) {
     min-width: 0;
-    width: 100%;
+    width: 30%;
   }
 }
 .btn {
